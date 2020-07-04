@@ -1,0 +1,8 @@
+version: '2'
+services:  
+  adminer:
+    image: adminer
+    restart: always
+    # network_mode: "host"  # 网络模式
+    ports:
+      - 9090:8080
